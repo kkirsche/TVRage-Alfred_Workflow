@@ -11,7 +11,7 @@ Returning Series:
 
 Canceled/Ended Series:
 ----------------------
-[*SHOW_NAME*] is canceled/ended. It ran for [*NUMBER OF SEASONS*] seasons on [*TV NETWORK*].
+[*SHOW_NAME*] is canceled/ended. It ran for [*NUMBER OF SEASONS*] season(s) on [*TV NETWORK*].
 
 TBD/On The Bubble Series:
 ----------------------
