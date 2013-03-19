@@ -38,7 +38,7 @@
      		$thisShow['subtitle'] = $thisShow['name'] . " is aired on " . $thisShow['airDay'] . " at " . $thisShow['airTime'] . " on " . $thisShow['network'] . ".";
      	}
 
-     	$fileIcon = "fileicon:/Applications/Alfred.app";
+     	$fileIcon = "icon.png";
      	$valid = "yes";
 
      	//$w->result(uid, arg, title, subtitle, fileicon, valid, autocomplete)
