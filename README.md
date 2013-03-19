@@ -16,3 +16,12 @@ TBD/On The Bubble Series:
 ----------------------
 [*SHOW_NAME*] is on the bubble for being renewed. If it is renewed, it airs on [*AIR DAY*] at [*AIR TIME*] on [*TV NETWORK*].
 
+Use of the Workflow
+===================
+This workflow can be called by the keyword "tv [*TV SHOW NAME*]". This will query the TVRage database and return results based on your query.
+
+Features to be added:
+---------------------
+* TV Episode search
+* 12 hour version (instead of current 24-hour time)
+* Create icon for TVRage workflow
