@@ -3,6 +3,7 @@ Welcome to the TVRage Alfred Workflow
 ### Version 0.1
 
 This workflow is currently setup to run based on the tv keyword. It queries TVRage and returns information on the show.
+![Alfred Workflow Example](http://i.imgur.com/toW7etk.png)
 
 Returning Series:
 -----------------
@@ -25,3 +26,7 @@ Features to be added:
 * TV Episode search
 * 12 hour version (instead of current 24-hour time)
 * Create icon for TVRage workflow
+
+Resources Used:
+---------------
+* [PHP TVRage Class](https://github.com/ryandoherty/PHP--TVRage)
