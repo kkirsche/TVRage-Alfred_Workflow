@@ -36,3 +36,4 @@ Features to be added:
 Resources Used:
 ---------------
 * [PHP TVRage Class](https://github.com/ryandoherty/PHP--TVRage)
+* [Alfred App v2](http://www.alfredapp.com/)
