@@ -1,9 +1,15 @@
 Welcome to the TVRage Alfred Workflow
 =====================================
-### Version 0.12
+### Version 0.13
 
 This workflow is currently setup to run based on the tv keyword. It queries TVRage and returns information on the show. If you are using a hotkey, it will pass your current selection in OS X into the workflow.
-![Alfred Workflow Example](http://i.imgur.com/2cwW7IB.png)
+![Alfred Workflow Example](http://i.imgur.com/oND1ufT.png)
+
+Configuration:
+--------------
+* Double click on the Script Filter icon in the workflow with the keyword 'tv'.
+* In the 'Script:' section you will see the line <code>date_default_timezone_set('America/New_York');</code>. On this line, you set your timezone. A list of supported timezones can be found on [PHP.net](http://www.php.net/manual/en/timezones.php).
+* If you would like to switch the time from 12 hour to 24 hour or vice versa, change the line <code>$twelveHourTimeEnabled = true;</code> from either true to false, or vice versa.
 
 Returning Series:
 -----------------
@@ -24,7 +30,7 @@ This workflow can be called by the keyword "tv [*TV SHOW NAME*]". This will quer
 Features to be added:
 ---------------------
 * TV Episode search — NOTE: functions, but slow. Trying to speed it up before hooking it up.
-* 12 hour version (instead of current 24-hour time)
+* ~~12 hour version (instead of current 24-hour time)~~
 * ~~Create icon for TVRage workflow~~
 
 Resources Used:
