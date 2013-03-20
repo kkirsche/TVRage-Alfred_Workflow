@@ -23,7 +23,7 @@ This workflow can be called by the keyword "tv [*TV SHOW NAME*]". This will quer
 
 Features to be added:
 ---------------------
-* TV Episode search
+* TV Episode search — NOTE: functions, but slow. Trying to speed it up a bit before a release of it.
 * 12 hour version (instead of current 24-hour time)
 * ~~Create icon for TVRage workflow~~
 
