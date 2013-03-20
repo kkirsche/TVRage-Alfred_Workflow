@@ -9,7 +9,7 @@ Configuration:
 --------------
 * Double click on the Script Filter icon in the workflow with the keyword 'tv'.
 * In the 'Script:' section you will see the line <code>date_default_timezone_set('America/New_York');</code>. On this line, you set your timezone. A list of supported timezones can be found on [PHP.net](http://www.php.net/manual/en/timezones.php).
-* If you would like to switch the time from 12 hour to 24 hour or vice versa, change the line <code>$twelveHourTimeEnabled = true;</code> from either true to false, or vice versa.
+* If you would like to switch the time from 12 hour to 24 hour or vice versa, change the line <code>$twelveHourTimeEnabled = true;</code> from either <code>true</code> to <code>false</code>, or vice versa.
 
 Returning Series:
 -----------------
