@@ -1,10 +1,10 @@
 <?php
 
      // Author: Kevin Kirsche
-     // Version: 0.13
+     // Version: 0.14
      date_default_timezone_set('America/New_York');
-     $twelveHourTimeEnabled = true;
 
+     require_once('config.php');
 	require_once('workflows.php');
 	require_once('TVRAGE/TVRAGE.class.php');
 	require_once('TVRAGE/TV_Show.class.php');
