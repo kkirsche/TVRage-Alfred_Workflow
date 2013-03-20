@@ -1,3 +1,12 @@
+### Version 0.14
+* Added keyword to enable / disable 12-hour time.
+
+### Version 0.13
+* Added support for 12-hour time.
+* Added configuration for 12-hour time.
+* Enhanced README.md with configuration options.
+
+
 ### Version 0.12
 
 * Removed extra require's at the top of the tv show workflow.
