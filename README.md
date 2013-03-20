@@ -1,6 +1,6 @@
 Welcome to the TVRage Alfred Workflow
 =====================================
-### Version 0.11
+### Version 0.12
 
 This workflow is currently setup to run based on the tv keyword. It queries TVRage and returns information on the show. If you are using a hotkey, it will pass your current selection in OS X into the workflow.
 ![Alfred Workflow Example](http://i.imgur.com/2cwW7IB.png)
@@ -23,7 +23,7 @@ This workflow can be called by the keyword "tv [*TV SHOW NAME*]". This will quer
 
 Features to be added:
 ---------------------
-* TV Episode search — NOTE: functions, but slow. Trying to speed it up a bit before a release of it.
+* TV Episode search — NOTE: functions, but slow. Trying to speed it up before hooking it up.
 * 12 hour version (instead of current 24-hour time)
 * ~~Create icon for TVRage workflow~~
 
