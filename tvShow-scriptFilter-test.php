@@ -1,15 +1,13 @@
 <?php
      
      // Author: Kevin Kirsche
-     // Version: 0.11
-
+     // Version: 0.12
      date_default_timezone_set('America/New_York');
 
 	require_once('workflows.php');
 	require_once('TVRAGE/TVRAGE.class.php');
 	require_once('TVRAGE/TV_Show.class.php');
 	require_once('TVRAGE/TV_Shows.class.php');
-	require_once('TVRAGE/TV_Episode.class.php');
 	//create new workflow
 	$w = new Workflows();
 	// Grab input
@@ -30,6 +28,9 @@
      		'airTime' => $each->airTime,
      		'network' => $each->network,
      		'seasons' => $each->seasons,
+               'valid' => 'yes',
+               'fileIcon' => 'icon.png',
+               'autocomplete' => 'yes'
      	);
 
           //check number of seasons to ensure we return the correct word
@@ -50,11 +51,8 @@
      		$thisShow['subtitle'] = $thisShow['name'] . " is aired on " . $thisShow['airDay'] . " at " . $thisShow['airTime'] . " on " . $thisShow['network'] . ".";
      	}
 
-     	$fileIcon = "icon.png";
-     	$valid = "yes";
-
      	//$w->result(uid, arg, title, subtitle, fileicon, valid, autocomplete)
-		$w->result($thisShow['uid'], $thisShow['arg'], $thisShow['name'], $thisShow['subtitle'], $fileIcon, $valid, 'yes');
+		$w->result($thisShow['uid'], $thisShow['arg'], $thisShow['name'], $thisShow['subtitle'], $thisShow['fileIcon'], $thisShow['valid'], $thisShow['autocomplete']);
      }
 
      // Return the result xml
