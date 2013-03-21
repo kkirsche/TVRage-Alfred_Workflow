@@ -40,6 +40,14 @@
 		 */
 		public $airDate;
 
+		/**
+		 * First air date of the episode formatted to "Day, Month Number, Year"
+		 *
+		 * @access public
+		 * @var int
+		 */
+		public $formattedAirDate;
+
         /**
          * URL to episode on TVrage.com
          *
@@ -60,6 +68,7 @@
             $this->season = (int)$this->season;
             $this->number = (int)$this->number;
 			$this->airDate = strtotime((string)$config->airdate);
+			$this->formattedAirDate = date("D, F d, Y", strtotime((string)$config->airdate));
 			$this->title = (string)$config->title;
             $this->url = (string)$config->url;
 		}
