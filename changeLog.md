@@ -1,3 +1,6 @@
+### Version 0.15
+* Changed configuration handling from PHP files to JSON for smaller size and faster loading.
+
 ### Version 0.14
 * Added keyword to enable / disable 12-hour time.
 
