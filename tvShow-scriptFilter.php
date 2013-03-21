@@ -1,10 +1,9 @@
 <?php
 
      // Author: Kevin Kirsche
-     // Version: 0.14
+     // Version: 0.15
      date_default_timezone_set('America/New_York');
 
-     require_once('config.php');
 	require_once('workflows.php');
 	require_once('TVRAGE/TVRAGE.class.php');
 	require_once('TVRAGE/TV_Show.class.php');
@@ -12,7 +11,10 @@
 	//create new workflow
 	$w = new Workflows();
 	// Grab input
-	$input = "{query}";
+	$input = "Mike & Molly";
+
+     $string = file_get_contents('config.json');
+     $decodedJSON = json_decode($string, true);
 
 	//Use the input to search TVRage
 	$show = TV_Shows::search($input);
@@ -41,7 +43,7 @@
                $seasons = "season";
           }
 
-          if($twelveHourTimeEnabled === true) {
+          if($decodedJSON['12hrtimezone'] == true) {
           	//set the subtitle based on the status of the show. We want the user to get information pertinent to the show.
           	if($thisShow['status'] == "Returning Series") {
           		$thisShow['subtitle'] = $each->name . " is a " . $thisShow['status'] . ". It is aired " . $thisShow['airDay'] . " at " . $thisShow['12hrAirTime'] . " on " . $thisShow['network'] . ".";
