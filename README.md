@@ -30,7 +30,7 @@ Features to be added:
 * TV Episode search — NOTE: functions, but slow. Trying to speed it up before hooking it up.
 * ~~12 hour version (instead of current 24-hour time)~~
 * ~~Create icon for TVRage workflow~~
-* ~~Better Timezone support
+* ~~Better Timezone support~~
 
 Resources Used:
 ---------------
