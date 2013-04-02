@@ -1,3 +1,6 @@
+### Version 0.20
+* Check user's machine for their timezone and set it this way. Don't require the user to set it themselves.
+
 ### Version 0.15
 * Changed configuration handling from PHP files to JSON for smaller size and faster loading.
 
