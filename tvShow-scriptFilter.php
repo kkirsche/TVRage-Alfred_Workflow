@@ -1,8 +1,11 @@
 <?php
 
      // Author: Kevin Kirsche
-     // Version: 0.15
-     date_default_timezone_set('America/New_York');
+     // Version: 0.2
+     $tz_string = exec('systemsetup -gettimezone');
+     $tz = substr( $tz_string, ( strpos( $tz_string, ": " ) + 2 ) );
+
+     date_default_timezone_set( $tz );
 
 	require_once('workflows.php');
 	require_once('TVRAGE/TVRAGE.class.php');
