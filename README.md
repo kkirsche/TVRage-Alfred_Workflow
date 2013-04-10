@@ -1,6 +1,6 @@
 Welcome to the TVRage Alfred Workflow
 =====================================
-### Version 0.20
+### Version 1.0
 
 This workflow is currently setup to run based on the tv keyword. It queries TVRage and returns information on the show. If you are using a hotkey, it will pass your current selection in OS X into the workflow.
 ![Alfred Workflow Example](http://i.imgur.com/oND1ufT.png)
@@ -31,6 +31,7 @@ Features to be added:
 * ~~12 hour version (instead of current 24-hour time)~~
 * ~~Create icon for TVRage workflow~~
 * ~~Better Timezone support~~
+* ~~[Alleyoop](http://www.alfredforum.com/topic/1582-alleyoop-update-alfred-workflows/) Support~~
 
 Resources Used:
 ---------------
